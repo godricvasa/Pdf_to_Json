@@ -8,14 +8,13 @@ key = os.getenv('key')
 endpoint=os.getenv('endpoint')
 
 
-def text_Extractor(filepath):
+def text_Extractor(file):
   document_analysis_client = DocumentAnalysisClient(
        endpoint=endpoint, credential=AzureKeyCredential(key)
    )
-  with open(r"handwritten-test.pdf", "rb") as f:
-       poller = document_analysis_client.begin_analyze_document(
-           "prebuilt-invoice", document=f, locale="en-US"
-       )
+  poller = document_analysis_client.begin_analyze_document(
+        "prebuilt-invoice", document=file, locale="en-US"
+    )
   result = poller.result()
   extracted_text = []
   print(type(result))
