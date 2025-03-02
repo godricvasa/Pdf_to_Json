@@ -1,12 +1,33 @@
-    # Pdf_to_Json
+ # 📄 Pdf_to_Json  
+A simple **PDF to JSON** converter using **Azure Form Recognizer** and **OpenAI**, built with **Streamlit**.  
 
-## This is a simple file to json converter using Azure Form Recognizer and OpenAI.
+## 🚀 Live Demo  
+🔗 [Pdf_to_Json - Deployed Link](https://jsonifier.streamlit.app/)  
 
-### To run the project, you need to have the following:
+---
 
-1. Python 3.10 or higher
-2. Azure Form Recognizer and OpenAI API keys
-3. Streamlit
+## 📝 Overview  
+This project extracts structured **JSON** data from **PDF files** using:  
+✅ **Azure Form Recognizer** – for text and table extraction.  
+✅ **OpenAI** – for refining and structuring the extracted data.  
+✅ **Streamlit** – for a simple and interactive **web-based UI**.  
+
+---
+
+## 🛠 Requirements  
+Before running the project, ensure you have:  
+- **Python 3.10** or higher  
+- **Azure Form Recognizer API key**  
+- **OpenAI API key**  
+- **Streamlit**  
+
+---
+## 📦 Installation  
+
+### 1️⃣ Clone the repository  
+```bash
+git clone https://github.com/your-repo-name/Pdf_to_Json.git
+cd Pdf_to_Json
 
 ### To install the dependencies, run the following command:
 
