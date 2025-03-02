@@ -28,6 +28,7 @@ Before running the project, ensure you have:
 ```bash
 git clone https://github.com/godricvasa/Pdf_to_Json.git
 cd Pdf_to_Json
+```
 
 ### To install the dependencies, run the following command:
 
