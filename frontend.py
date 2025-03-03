@@ -25,11 +25,6 @@ if uploaded_file:
             images = convert_from_bytes(uploaded_file.read())
             for img in images[:2]:  # Display first 2 pages
                 st.image(img, use_column_width=True)
-
-        elif uploaded_file.type in ["image/png", "image/jpeg", "image/jpg"]:
-            image = Image.open(uploaded_file)
-            st.image(image, use_column_width=True)
-
         else:
             st.write("📄 Preview not available for this file type.")
 
