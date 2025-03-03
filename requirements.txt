@@ -3,4 +3,5 @@ azure-core
 python-dotenv
 streamlit
 openai
+google-generativeai
 
