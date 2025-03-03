@@ -4,4 +4,6 @@ python-dotenv
 streamlit
 openai
 google-generativeai
+pdf2image 
+pillow
 
